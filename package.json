@@ -1,0 +1,11 @@
+{
+    "name": "resume-insight",
+    "version": "1.0.0",
+    "description": "AI-powered Resume Analyzer with ATS scoring",
+    "scripts": {
+        "start:backend": "cd backend && node server.js",
+        "start:frontend": "cd frontend && npm run dev",
+        "install:all": "cd backend && npm install && cd ../frontend && npm install"
+    },
+    "private": true
+}
